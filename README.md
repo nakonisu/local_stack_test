@@ -1,7 +1,7 @@
 # 概要
 
 AWS 上でのシステム開発において、ローカルでのテスト環境を整える例をまとめたレポジトリです。
-レポジトリの内容は README_REPOSITORY.md にまとめています。
+本 README では、ローカルと AWS 上の開発の流れやその仕組をまとめています。レポジトリの実際の内容や、デプロイの方法などは README_REPOSITORY.md にまとめています。
 
 - Docker により、AWS のローカル環境を構築する環境を整える
 - terraform のプロバイダーに local の URL を指定する
@@ -11,7 +11,7 @@ AWS 上でのシステム開発において、ローカルでのテスト環境�
 
 ## 概要
 
-LocalStack と Terraform を使うことで、AWS 本番環境とほぼ同じ構成をローカルで再現し、開発・テストができます。クラウド利用料金を抑えつつ、Infrastructure as Code の実践学習にも最適です。
+LocalStack と Terraform を使うことで、AWS 本番環境とほぼ同じ構成をローカルで再現し、開発・テストができます。クラウド利用料金を抑えつつ、Infrastructure as Code の実践学習に最適です。
 
 ---
 
