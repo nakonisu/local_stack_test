@@ -1,0 +1,6 @@
+# ローカル環境設定
+environment         = "local"
+aws_region          = "us-east-1"
+project_name        = "task-manager"
+use_localstack      = true
+localstack_endpoint = "http://localhost:4566"

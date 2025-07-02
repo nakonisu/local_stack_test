@@ -1,0 +1,6 @@
+# 本番環境設定
+environment    = "production"
+aws_region     = "ap-northeast-1"  # お好みのリージョンに変更
+project_name   = "task-manager"
+use_localstack = false
+# aws_profile    = "your-aws-profile"  # 本番環境用のAWSプロファイル名（実際の使用時に設定）
